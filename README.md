@@ -41,4 +41,4 @@ The core logic operates as an efficient, cooperative non-blocking loop running a
 
 1. **Clone the Repository:**
    ```bash
-   git clone [https://github.com/TanujRai14/iot-elderly-care-wearable.git](https://github.com/TanujRai14/iot-elderly-care-wearable.git)
+   git clone [https://github.com/TanujRai14/iot-enabled-wearable-device-for-elderly-people.git](https://github.com/TanujRai14/iot-enabled-wearable-device-for-elderly-people.git)
