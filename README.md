@@ -37,8 +37,8 @@ The core logic operates as an efficient, cooperative non-blocking loop running a
 
 ---
 
-## 🛠️ Installation & Usage
+## ⚙️ How It Operates (System Architecture)
 
-1. **Clone the Repository:**
-   ```bash
-   git clone [https://github.com/TanujRai14/iot-enabled-wearable-device-for-elderly-people.git](https://github.com/TanujRai14/iot-enabled-wearable-device-for-elderly-people.git)
+1. **Initialization:** On boot, the system initializes I2C communication for the MPU6050, SPI for the RFID reader, and sets up a serial connection for the GPS module.
+2. **Network Connection:** The firmware authenticates with the local Wi-Fi access point and instantiates an HTTP server on Port 80.
+3. **Telemetry Streaming:** The hardware continuously runs the fall-detection and geofencing loops. When a user navigates to the Arduino's dynamically assigned local IP address, the board compiles the current data points and spits out the custom CSS/HTML web interface natively.
