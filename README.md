@@ -17,6 +17,7 @@ An advanced, microcontroller-based IoT wearable design engineered to protect and
 ## 📦 Hardware Architecture
 
 - **Microcontroller:** Arduino UNO R4 WiFi / Wi-Fi Enabled ARM Core (using `WiFiS3.h`)
+- **GPS Sensor:** Neo6N (GPS sensor for live coordinates)
 - **IMU Sensor:** MPU6050 (3-Axis Accelerometer & Gyroscope)
 - **Positioning Module:** TinyGPS compatible Serial GPS Module
 - **Authentication:** MFRC522 RFID Reader + High-Frequency Tags
